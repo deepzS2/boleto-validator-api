@@ -1,6 +1,6 @@
 import chalk from 'chalk'
 
-import { ILoggerOptions } from '@myTypes'
+import { ILoggerOptions } from '@/@types/index'
 
 /**
  * Replace HH, mm and ss by the respective values
