@@ -8,6 +8,10 @@ Este projeto foi feito seguindo a prática de TDD (Test Driven Development) onde
 
 Leia mais no artigo da [DEV Media](https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533).
 
+## Coverage de testes
+Imagem com o total de coverage de testes.
+![](assets/coverage-screenshot.png)
+
 ## Como rodar o projeto?
 Primeiro será necessário baixar as dependências com o gerenciador de pacotes de sua preferência
 ```bash
