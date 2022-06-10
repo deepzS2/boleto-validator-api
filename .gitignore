@@ -1,0 +1,7 @@
+node_modules
+.env
+request.http
+yarn.lock
+yarn-error.log
+package-lock.json
+coverage
