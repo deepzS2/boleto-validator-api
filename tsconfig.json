@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    // Modules, JS target and libs
+    "target": "ES6",
+    "lib": ["ESNext"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    // No sourcemaps
+    "sourceMap": false,
+
+    // Allow JS
+    "allowJs": true,
+
+    // Build root and out dir
+    "outDir": "dist",
+    "rootDir": "src",
+
+    // JSON
+    "resolveJsonModule": true,
+
+    // Skip .d.ts files check
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+
+    // Correct casing
+    "forceConsistentCasingInFileNames": true,
+
+    // Imports configuration
+    "importHelpers": true,
+
+    // Decorators
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    // Babel compiling
+    "declaration": true,
+    "emitDeclarationOnly": true,
+
+    // Module paths
+    "baseUrl": "src",
+
+    "paths": {
+      "@database/*": ["database/*"],
+      "@utils/*": ["utils/*"],
+      "@controllers/*": ["controllers/*"],
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
