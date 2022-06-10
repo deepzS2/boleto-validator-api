@@ -4,6 +4,8 @@ module.exports = {
 	testEnvironment: 'node',
 	testMatch: ['**/__tests__/**/?(*.)(spec|test).ts?(x)'],
 	moduleNameMapper: {
-		'@src/(.*)': '<rootDir>/src/$1',
+		'@/(.*)': '<rootDir>/src/$1',
+		'@utils/(.*)': '<rootDir>/src/utils/$1',
+		'@controllers/(.*)': '<rootDir>/src/controllers/$1',
 	},
 }
