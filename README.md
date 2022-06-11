@@ -17,7 +17,7 @@ Primeiro será necessário baixar as dependências com o gerenciador de pacotes 
 ```bash
 npm install
 # OU
-yarn add
+yarn
 ```
 Logo após você pode rodar o ambiente de desenvolvimento
 ```bash
